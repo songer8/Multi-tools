@@ -1,0 +1,37 @@
+.leftBar {
+    height: 100%;
+    background-color: #0A3D3F;
+    box-shadow: 5px 5px 10px 0 rgba(74,74,74,0.3);
+    flex-shrink: 0;
+    padding-top: 50px;
+  .nav {
+    height: 70px;
+    background-color: #0a3d3f;
+    line-height: 70px;
+    border-left: #0a3d3f solid 3px;
+    padding-left: 50px;
+    cursor: pointer;
+    // &:hover{
+    //     border-left: #F7FBFB solid 3px;
+    // }
+    .iconfont {
+      color: #46948f;
+    }
+    .liName {
+      color: #46948f;
+    }
+  }
+  .passive:hover .child {
+    color: #99c5c3;
+  }
+  .active {
+    background-color: #0a3d3f;
+    border-left: #f7fbfb solid 3px;
+    .iconfont {
+      color: white;
+    }
+    .liName {
+      color: white;
+    }
+  }
+}

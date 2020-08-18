@@ -1,0 +1,19 @@
+
+.link-list {
+  .h3{
+    margin: 10px 0 0 0;
+    color: #0A3D3F;
+  }
+  .liWrapper {
+    display: flex;
+    li {
+      margin: 5px;
+      align-items: center;
+
+      img {
+        height: 12px;
+        margin-right: 5px;
+      }
+    }
+  }
+}

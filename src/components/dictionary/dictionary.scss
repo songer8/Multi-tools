@@ -1,0 +1,37 @@
+.translate {
+  .dic-wrapper {
+    display: flex;
+    width: 700px;
+    margin: auto;
+    .dicInput {
+      flex: 1;
+      border: none;
+      width: 100%;
+      height: 60px;
+      padding: 10px;
+      box-shadow: 0 4px 6px 0 rgba(74, 74, 74, 0.1);
+      background-color: white;
+      display: flex;
+      cursor: pointer;
+    }
+  }
+  .clickDicBtn {
+    height: 60px;
+    width: 120px;
+    background-color: #35c5ba;
+    color: white;
+    border-radius: 0.25rem;
+    border: none;
+    margin: 0 0 0 20px;
+    &:hover {
+      background-color: #2eaaa0;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+      cursor: pointer;
+    }
+  }
+  .dicOutput{
+    width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+  }
+}

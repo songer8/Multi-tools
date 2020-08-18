@@ -1,0 +1,47 @@
+.wrapper {
+  #source {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    box-shadow: 0 4px 6px 0 rgba(74, 74, 74, 0.1);
+  }
+  #result {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    box-shadow: 0 4px 6px 0 rgba(74, 74, 74, 0.1);
+  }
+  .buttonList {
+    display: flex;
+    margin: 20px 5px;
+    .encodeButton {
+      flex: 1;
+      color: white;
+      background-color: #35c5ba;
+      margin: 5px;
+      padding: 10px;
+      border: none;
+      white-space: nowrap;
+      cursor: pointer;
+      &:hover {
+        background-color: #2eaaa0;
+        box-shadow: 0 4px 6px 0 rgba(74, 74, 74, 0.1);
+      }
+    }
+    .decodeButton {
+      flex: 1;
+      color: white;
+      background-color: #186d70;
+      margin: 5px;
+      padding: 10px;
+      width: 100%;
+      border: none;
+      white-space: nowrap;
+      cursor: pointer;
+      &:hover {
+        background-color: #145b5e;
+        box-shadow: 0 4px 6px 0 rgba(74, 74, 74, 0.1);
+      }
+    }
+  }
+}

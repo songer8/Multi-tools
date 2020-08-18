@@ -1,0 +1,17 @@
+@import './iconfont/iconfont.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: #696969;
+  outline: none;
+  box-sizing: border-box;//border到border的width；
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}

@@ -1,0 +1,12 @@
+.app{
+  height: 100%;
+  display: flex;
+  background-color: #F7FBFB;
+  .nav{   
+    width: 200px;
+  }
+  .content{
+    flex: 1;
+    margin: 50px;
+  }
+}
